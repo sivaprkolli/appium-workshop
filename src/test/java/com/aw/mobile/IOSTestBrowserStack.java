@@ -15,15 +15,6 @@ import java.util.Collections;
 
 public class IOSTestBrowserStack {
 
-    /*
-     uiAutomator2Options.setCapability("project", "SauceDemo");
-        uiAutomator2Options.setCapability("build", "SauceDemo Build V1.1");
-        uiAutomator2Options.setCapability("name", "Login Test");
-
-        androidDriver = new AndroidDriver(new URL("https://sivakolli_aIpA4i:8MZSbx6Y8RsspGzMTRsr@hub.browserstack.com/wd/hub"), uiAutomator2Options);
-
-     */
-
 
     IOSDriver iosDriver;
 
@@ -39,7 +30,7 @@ public class IOSTestBrowserStack {
         xcuiTestOptions.setCapability("build", "BrowserStack build 7.9");
         xcuiTestOptions.setCapability("name", "login IOSTest");
 
-        iosDriver = new IOSDriver(new URL("https://sivakolli_aIpA4i:8MZSbx6Y8RsspGzMTRsr@hub.browserstack.com/wd/hub"), xcuiTestOptions);
+        iosDriver = new IOSDriver(new URL("https://username:accesskey@hub.browserstack.com/wd/hub"), xcuiTestOptions);
 
         System.out.println("IOS Session started");
         Thread.sleep(5000);
