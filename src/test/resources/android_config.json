@@ -1,0 +1,31 @@
+{
+  "devices": [
+    {
+      "name": "Samsung",
+      "platformName": "Android",
+      "platformVersion": "17.0",
+      "deviceName": "Samsung",
+      "automationName": "UiAutomator2",
+      "app": "file-1788419856915.apk",
+      "dfBuild": "IL Test"
+    },
+    {
+      "name": "Pixel6",
+      "platformName": "Android",
+      "platformVersion": "14.0",
+      "deviceName": "Pixel 6",
+      "automationName": "UiAutomator2",
+      "app": "file-1788419856915.apk",
+      "dfBuild": "IL Test"
+    },
+    {
+      "name": "OnePlus",
+      "platformName": "Android",
+      "platformVersion": "13.0",
+      "deviceName": "OnePlus 9",
+      "automationName": "UiAutomator2",
+      "app": "file-1788419856915.apk",
+      "dfBuild": "IL Test"
+    }
+  ]
+}
